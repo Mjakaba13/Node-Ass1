@@ -1,0 +1,31 @@
+{
+  "name": "node-ass1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Products for the inventory app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mjakaba13/first-node-app.git"
+  },
+  "keywords": [
+    "Products",
+    "Inventory"
+  ],
+  "author": "Malcolm Akaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mjakaba13/first-node-app/issues"
+  },
+  "homepage": "https://github.com/Mjakaba13/first-node-app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
