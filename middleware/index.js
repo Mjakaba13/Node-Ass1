@@ -1,4 +1,4 @@
-import { products } from "../Routes/data.js";
+import { products } from "../data.js";
 
 const checkIfProductExist = (req, res, next) => {
   const product = products.find((item) => item.id == req.params.prodId);

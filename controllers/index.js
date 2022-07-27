@@ -1,4 +1,4 @@
-import { products } from "../Routes/data.js";
+import { products } from "../data.js";
 
 export const getSingleProduct = (req, res) => {
   res.status(200).send({
